@@ -1,0 +1,44 @@
+#home h1{
+    padding: 55px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: darkred;
+}
+.span1{
+    color: black;
+    font-weight: bolder;
+}
+#home1{
+ transition: 4s;
+ animation: 1s text ease-in-out 1s;
+}
+
+@keyframes text {
+    0% {
+        transform: rotateX(180deg) rotateY(50deg);
+    }
+
+}
+#intro{
+    color: black;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 35px;
+}
+#about h1 , .carousel h1,#contact h1 {
+    color: black;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 35px
+}
+.col-md-4 p {
+    color: black;
+    font-family: sans-serif;
+
+}
+.carousel img{
+ width: 350px;
+ height: 350px;
+
+}
+
